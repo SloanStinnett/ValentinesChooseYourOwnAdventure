@@ -20,6 +20,9 @@
       text-align: center;
       margin-bottom: 25px;
     }
+    .day-block {
+      margin-bottom: 40px;
+    }
     .block {
       background: white;
       border-radius: 16px;
@@ -62,126 +65,160 @@
 
 <h1>Choose Your Valentine Adventure ❤️</h1>
 <div class="subtitle">
-  Choose one per moment of the day.<br>
-  Mix themes however you like—I’ll take care of everything.
+  Make your selections for Saturday and Sunday.<br>
+  Sunday excludes the Evening option.
 </div>
 
-<!-- MORNING -->
-<div class="block">
-  <h3>🌅 Morning</h3>
+<!-- SATURDAY -->
+<div class="day-block">
+  <h2>Saturday</h2>
 
-  <div class="option">
-    <label>
-      <input type="radio" name="morning" value="Sleep in, slow start, and quiet cuddles">
-      Sleep in & Slow Morning (🌿 Relax)
-    </label>
-    <div class="details">
-      No alarms, cozy time, easing into the day together.
+  <!-- MORNING -->
+  <div class="block">
+    <h3>🌅 Morning</h3>
+    <div class="option">
+      <label>
+        <input type="radio" name="saturday-morning" value="Sleep in, slow start, and quiet cuddles">
+        Sleep in & Slow Morning (🌿 Relax)
+      </label>
+      <div class="details">No alarms, cozy time, easing into the day together.</div>
+    </div>
+    <div class="option">
+      <label>
+        <input type="radio" name="saturday-morning" value="Coffee out from anywhere you want with donuts or pastries">
+        Coffee Out & Treats (🎮 Play)
+      </label>
+      <div class="details">Your choice of coffee spot, donuts or pastries, casual and fun.</div>
+    </div>
+    <div class="option">
+      <label>
+        <input type="radio" name="saturday-morning" value="Wake a little early to get ready for a full adventure day">
+        Early Start for the Day (🗺️ Adventure)
+      </label>
+      <div class="details">Get ready, pack up, and head out for something special.</div>
     </div>
   </div>
 
-  <div class="option">
-    <label>
-      <input type="radio" name="morning" value="Coffee out from anywhere you want with donuts or pastries">
-      Coffee Out & Treats (🎮 Play)
-    </label>
-    <div class="details">
-      Your choice of coffee spot, donuts or pastries, casual and fun.
+  <!-- MIDDAY -->
+  <div class="block">
+    <h3>☀️ Late Morning / Early Afternoon</h3>
+    <div class="option">
+      <label>
+        <input type="radio" name="saturday-midday" value="Brunch at home with coffee, pancakes, eggs, and fruit">
+        Brunch at Home (🌿 Relax)
+      </label>
+      <div class="details">Coffee of your choice, pancakes, eggs, fruit, cozy at home.</div>
+    </div>
+    <div class="option">
+      <label>
+        <input type="radio" name="saturday-midday" value="Aerial hammock class with Nina followed by lunch in the city">
+        Aerial Hammock + Lunch (🎮 Play)
+      </label>
+      <div class="details">Move, laugh, then sit down somewhere great to eat.</div>
+    </div>
+    <div class="option">
+      <label>
+        <input type="radio" name="saturday-midday" value="Picnic together followed by a zoo visit to see the baby tiger">
+        Picnic & Zoo Adventure (🗺️ Adventure)
+      </label>
+      <div class="details">Your choice of picnic style, then wandering the zoo together.</div>
     </div>
   </div>
 
-  <div class="option">
-    <label>
-      <input type="radio" name="morning" value="Wake a little early to get ready for a full adventure day">
-      Early Start for the Day (🗺️ Adventure)
-    </label>
-    <div class="details">
-      Get ready, pack up, and head out for something special.
+  <!-- EVENING -->
+  <div class="block">
+    <h3>🌙 Evening</h3>
+    <div class="option">
+      <label>
+        <input type="radio" name="saturday-evening" value="Full home spa night with massage, facial, and a long bath">
+        Home Spa Night (🌿 Relax)
+      </label>
+      <div class="details">Facial, foot soak, full body massage, relaxation time, bath.</div>
+    </div>
+    <div class="option">
+      <label>
+        <input type="radio" name="saturday-evening" value="Takeout dinner from anywhere, gaming together, and a movie">
+        Games, Takeout & Movie (🎮 Play)
+      </label>
+      <div class="details">Any food you want, games we love, then a movie of your choice.</div>
+    </div>
+    <div class="option">
+      <label>
+        <input type="radio" name="saturday-evening" value="Dinner out followed by coming home to a freshly cleaned bed">
+        Dinner Out & Early Night (🗺️ Adventure)
+      </label>
+      <div class="details">A nice meal out, then home to clean sheets and rest.</div>
     </div>
   </div>
 </div>
 
-<!-- MIDDAY -->
-<div class="block">
-  <h3>☀️ Late Morning / Early Afternoon</h3>
+<!-- SUNDAY -->
+<div class="day-block">
+  <h2>Sunday</h2>
 
-  <div class="option">
-    <label>
-      <input type="radio" name="midday" value="Brunch at home with coffee, pancakes, eggs, and fruit">
-      Brunch at Home (🌿 Relax)
-    </label>
-    <div class="details">
-      Coffee of your choice, pancakes, eggs, fruit, cozy at home.
+  <!-- MORNING -->
+  <div class="block">
+    <h3>🌅 Morning</h3>
+    <div class="option">
+      <label>
+        <input type="radio" name="sunday-morning" value="Sleep in, slow start, and quiet cuddles">
+        Sleep in & Slow Morning (🌿 Relax)
+      </label>
+      <div class="details">No alarms, cozy time, easing into the day together.</div>
+    </div>
+    <div class="option">
+      <label>
+        <input type="radio" name="sunday-morning" value="Coffee out from anywhere you want with donuts or pastries">
+        Coffee Out & Treats (🎮 Play)
+      </label>
+      <div class="details">Your choice of coffee spot, donuts or pastries, casual and fun.</div>
+    </div>
+    <div class="option">
+      <label>
+        <input type="radio" name="sunday-morning" value="Wake a little early to get ready for a full adventure day">
+        Early Start for the Day (🗺️ Adventure)
+      </label>
+      <div class="details">Get ready, pack up, and head out for something special.</div>
     </div>
   </div>
 
-  <div class="option">
-    <label>
-      <input type="radio" name="midday" value="Aerial hammock class with Nina followed by lunch in the city">
-      Aerial Hammock + Lunch (🎮 Play)
-    </label>
-    <div class="details">
-      Move, laugh, then sit down somewhere great to eat.
+  <!-- MIDDAY -->
+  <div class="block">
+    <h3>☀️ Late Morning / Early Afternoon</h3>
+    <div class="option">
+      <label>
+        <input type="radio" name="sunday-midday" value="Brunch at home with coffee, pancakes, eggs, and fruit">
+        Brunch at Home (🌿 Relax)
+      </label>
+      <div class="details">Coffee of your choice, pancakes, eggs, fruit, cozy at home.</div>
     </div>
-  </div>
-
-  <div class="option">
-    <label>
-      <input type="radio" name="midday" value="Picnic together followed by a zoo visit to see the baby tiger">
-      Picnic & Zoo Adventure (🗺️ Adventure)
-    </label>
-    <div class="details">
-      Your choice of picnic style, then wandering the zoo together.
+    <div class="option">
+      <label>
+        <input type="radio" name="sunday-midday" value="Aerial hammock class with Nina followed by lunch in the city">
+        Aerial Hammock + Lunch (🎮 Play)
+      </label>
+      <div class="details">Move, laugh, then sit down somewhere great to eat.</div>
     </div>
-  </div>
-</div>
-
-<!-- EVENING -->
-<div class="block">
-  <h3>🌙 Evening</h3>
-
-  <div class="option">
-    <label>
-      <input type="radio" name="evening" value="Full home spa night with massage, facial, and a long bath">
-      Home Spa Night (🌿 Relax)
-    </label>
-    <div class="details">
-      Facial, foot soak, full body massage, relaxation time, bath.
-    </div>
-  </div>
-
-  <div class="option">
-    <label>
-      <input type="radio" name="evening" value="Takeout dinner from anywhere, gaming together, and a movie">
-      Games, Takeout & Movie (🎮 Play)
-    </label>
-    <div class="details">
-      Any food you want, games we love, then a movie of your choice.
-    </div>
-  </div>
-
-  <div class="option">
-    <label>
-      <input type="radio" name="evening" value="Dinner out followed by coming home to a freshly cleaned bed">
-      Dinner Out & Early Night (🗺️ Adventure)
-    </label>
-    <div class="details">
-      A nice meal out, then home to clean sheets and rest.
+    <div class="option">
+      <label>
+        <input type="radio" name="sunday-midday" value="Picnic together followed by a zoo visit to see the baby tiger">
+        Picnic & Zoo Adventure (🗺️ Adventure)
+      </label>
+      <div class="details">Your choice of picnic style, then wandering the zoo together.</div>
     </div>
   </div>
 </div>
 
 <!-- SCHEDULE -->
 <div class="schedule">
-  <h2>Your Valentine’s Day 💕</h2>
+  <h2>Your Valentine’s Weekend 💕</h2>
   <ul id="scheduleList">
     <li><em>Select one option from each time of day</em></li>
   </ul>
 </div>
 
 <div class="footer-note">
-  You can change this anytime—or tell me “surprise me.”<br>
-  I’m yours this weekend ❤️
+  I love you my baby. I hope we can have a great weekend together full of fun and adventures!
 </div>
 
 <script>
@@ -192,9 +229,11 @@
     scheduleList.innerHTML = '';
 
     const selections = {
-      "Morning": document.querySelector('input[name="morning"]:checked'),
-      "Late Morning / Early Afternoon": document.querySelector('input[name="midday"]:checked'),
-      "Evening": document.querySelector('input[name="evening"]:checked')
+      "Saturday Morning": document.querySelector('input[name="saturday-morning"]:checked'),
+      "Saturday Midday": document.querySelector('input[name="saturday-midday"]:checked'),
+      "Saturday Evening": document.querySelector('input[name="saturday-evening"]:checked'),
+      "Sunday Morning": document.querySelector('input[name="sunday-morning"]:checked'),
+      "Sunday Midday": document.querySelector('input[name="sunday-midday"]:checked')
     };
 
     let hasSelection = false;
@@ -220,3 +259,4 @@
 
 </body>
 </html>
+
